@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   checkoutAndTest:
     docker:
-      - image: cimg/node:15.8.0
+      - image: cimg/node:17.4.0
     steps:
       - checkout
       - run: node --version
