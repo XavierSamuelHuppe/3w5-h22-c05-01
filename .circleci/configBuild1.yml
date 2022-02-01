@@ -5,7 +5,7 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: node --version
+      - run: node --version # <- won't work
       - run: npm install
       - run: npm run test
 workflows:
